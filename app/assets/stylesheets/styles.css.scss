@@ -1,0 +1,52 @@
+$baseFontFamily: Patrick Hand SC;
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
+$navbarBackgroundHighlight: black;
+$navbarBackground: black;
+$navbarBrandColor: #ffc40d;
+$navbarLinkColor: #ffc40d;
+$navbarLinkColorHover: white;
+
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer {
+
+	margin-top: 50px;
+    color: $yellow;
+    a{
+        color: $gray;
+    }
+
+    a:hover { color: $yellow; }
+
+}
+
+.jumbotron {
+
+text-align: center;
+
+}
+
+.jumbotron h1 {
+font-size: 72px;
+line-height: 1;
+}
+
+.lead {
+margin-bottom: 20px;
+font-size: 21px;
+font-weight: 200;
+line-height: 30px;
+}
