@@ -3,8 +3,8 @@ $baseFontFamily: Patrick Hand SC;
 
 $navbarBackgroundHighlight: black;
 $navbarBackground: black;
-$navbarBrandColor: #ffc40d;
-$navbarLinkColor: #ffc40d;
+$navbarBrandColor: #3AA1BF;
+$navbarLinkColor: #3AA1BF;
 $navbarLinkColorHover: white;
 
 
@@ -23,13 +23,13 @@ body {
 
 .footer {
 
-	margin-top: 50px;
-    color: $yellow;
+	margin-top: 360px;
+    color: #3AA1BF;
     a{
         color: $gray;
     }
 
-    a:hover { color: $yellow; }
+    a:hover { color: #3AA1BF; }
 
 }
 
@@ -50,3 +50,8 @@ font-size: 21px;
 font-weight: 200;
 line-height: 30px;
 }
+
+html { 
+     background-image: url('https://www.dropbox.com/s/bm2ii8wu0i33ga5/background%20copy.jpg');
+     background-repeat: repeat; 
+ }
