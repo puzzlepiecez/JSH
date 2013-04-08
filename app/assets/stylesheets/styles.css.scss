@@ -11,7 +11,8 @@ $navbarLinkColorHover: white;
 @import 'bootstrap';
 
 body {
-	padding-top: 60px;
+	padding-top: 300px;
+	background-image: image-url("bb.jpg")
 }
 
 @import 'bootstrap-responsive';
@@ -21,27 +22,18 @@ body {
     border: 0;
 }
 
-.footer {
-
-	margin-top: 360px;
-    color: #3AA1BF;
-    a{
-        color: $gray;
-    }
-
-    a:hover { color: #3AA1BF; }
-
-}
-
 .jumbotron {
 
 text-align: center;
 
 }
 
+
+
 .jumbotron h1 {
 font-size: 72px;
 line-height: 1;
+color: #3AA1BF;
 }
 
 .lead {
@@ -49,9 +41,16 @@ margin-bottom: 20px;
 font-size: 21px;
 font-weight: 200;
 line-height: 30px;
+color: $white;
 }
 
-html { 
-     background-image: url('https://www.dropbox.com/s/bm2ii8wu0i33ga5/background%20copy.jpg');
-     background-repeat: repeat; 
- }
+.footer {
+
+	margin-top: 300px;
+	margin-right: 100px;
+    color: #3AA1BF;
+    a{
+        color: $white;
+    }
+    a:hover { color: #3AA1BF; }
+}

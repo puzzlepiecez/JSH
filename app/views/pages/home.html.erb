@@ -6,31 +6,8 @@
 	<h1>Hi! Welcome to "Just Say Hi".</h1>
 	<p class="lead">
 		Just say Hi, is a project to connect people to the individuals they would otherwise passby.
+    <%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-info btn-large" %>
 	</p>
-
-<div class="form-actions">
-<div class="span6 offset3 frosty">
-	<div class="span 6">
-	<form class="form-signin"><h2>Sign in</h2>
-	<input type="text" class= "input-block-level" placeholder="Email address">
-	<input type="password" class= "input-block-level" placeholder="Password">
-    <div class="control-group">
-    <div class="controls">
-      <label class="checkbox">
-        <input type="checkbox"> Remember me
-      </label>
-      <p>
-      	 <button type="submit" class="btn btn-info btn-large">Sign in</button> or <%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-inverse btn-large" %>
-      	 </p>
-    </div>
-    </div>
-
-</div>
-</div>
-</div>
-  </div>
-</form>
-	</div>
 </div>
 </div>
 
