@@ -1,5 +1,5 @@
-$baseFontFamily: Patrick Hand SC;
-@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+$baseFontFamily: Bilbo Swash Caps;
+@import url(http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Economica);
 
 $navbarBackgroundHighlight: black;
 $navbarBackground: black;
@@ -38,7 +38,7 @@ color: #3AA1BF;
 
 .lead {
 margin-bottom: 20px;
-font-size: 21px;
+font-size: 40px;
 font-weight: 200;
 line-height: 30px;
 color: $white;
